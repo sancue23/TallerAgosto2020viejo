@@ -1,0 +1,9 @@
+---
+# tasks file for roles/apache-ubuntu
+- name: Install Apache Server
+  apt:
+    pkg: 
+    - apache2
+    
+
+
